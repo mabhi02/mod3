@@ -11,28 +11,22 @@
     <link rel="stylesheet" href="css.css">
 </head>
 
-<nav class="navbar" id="top">
-  <div class="container-fluid">
+<body>
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <div class="navbar-brand">
+                        <a href="index.html"><h1>Food, LLC</h1></a>
+                    </div>
 
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span> 
-      </button>
-      <a class="navbar-brand" href="#">Food, LLC</a>
-    </div>
-
-    <div class="collapse" id="myNavbar">
-      <ul class="nav navbar-nav visible-xs">
-        <li><a class="menu-item" href="#">Chicken</a></li>
-        <li><a class="menu-item" href="#">Beef</a></li> 
-        <li><a class="menu-item" href="#">Sushi</a></li> 
-      </ul>
-    </div>
-
-  </div>
-</nav>
+                    <button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
 
                 <div id="collapsable-nav" class="collapse navbar-collapse">
                     <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs text-center">
