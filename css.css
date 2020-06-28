@@ -70,6 +70,24 @@ body {
     margin-bottom: 30px;
 }
 
+li{
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.menu-item{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	background-color: yellow;
+	border-bottom: 1px solid black;
+	color: blue;
+	display: block;
+}
+
+.menu-item:hover{
+	background-color: rgba(0,0,0,0.9);
+	color: rgba(0,0,0,0.4);
 #main-content h2 {
     font-size: 2.9em;
     font-weight: bold;
