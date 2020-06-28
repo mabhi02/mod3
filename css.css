@@ -61,11 +61,23 @@ body {
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
- border: 1px solid #61122f;
+    border: 1px solid #7d1913;
+}	
 }
-.navbar-header button.navbar-toggle {
-  clear: both;
-  margin-top: -30px;
+.menu-item{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	background-color: yellow;
+	border-bottom: 1px solid black;
+	color: blue;
+	display: block;
+}
+
+.menu-item:hover{
+	background-color: rgba(0,0,0,0.9);
+	color: rgba(0,0,0,0.4);
+}
 
 
 #main-content {
@@ -209,7 +221,8 @@ body {
 		margin-bottom: 2%;
 	}
 	.sec3{
-		width: 90%;
+		float.righ
+t		width: 90%;
 		margin-left: 5%;
 		margin-right: 5%;
 	}
