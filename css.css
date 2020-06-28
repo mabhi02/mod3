@@ -55,27 +55,16 @@ body {
     font-size: 1.2em;
 }
 
-#nav-list a:hover {
+#nav-list a {
     color: #7d1913;
     background-color: #e4af34;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
     border: 1px solid #7d1913;
+}	
 }
-
-
-#main-content {
-    width: 92%;
-    margin-bottom: 30px;
-}
-
-li{
-	box-sizing: border-box;
-	width: 100%;
-}
-
-.menu-item{
+.icon-bar{
 	padding: 0;
 	margin: 0;
 	width: 100%;
@@ -85,9 +74,17 @@ li{
 	display: block;
 }
 
-.menu-item:hover{
+.icon-bar:hover{
 	background-color: rgba(0,0,0,0.9);
 	color: rgba(0,0,0,0.4);
+}
+
+
+#main-content {
+    width: 92%;
+    margin-bottom: 30px;
+}
+
 #main-content h2 {
     font-size: 2.9em;
     font-weight: bold;
@@ -230,4 +227,3 @@ t		width: 90%;
 		margin-right: 5%;
 	}
 /** END HOME PAGE **/
-
