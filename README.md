@@ -143,7 +143,7 @@ the people, for the people, shall not perish from the earth.
         </div>
     </div>
     <div class="clearfix visible-lg-block"></div>
-
-</body>
+  <script src="jv.js"></script>
+ </body>
 
 </html>
